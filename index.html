@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/x-icon" href="alpha.jpg">
+</link>
+    <script src="https://kit.fontawesome.com/9be5a374eb.js" crossorigin="anonymous"></script>
+</head>
+<body>
+ <div class="w-[100vw] h-[100vh] flex flex-col items-center justify-center gap-10 bg-violet-400">
+    <div class="text-blue-800">
+Increament And Decreament
+    </div>
+    <div class="flex flex-row bg-white rounded-sm p-2 gap-10 px-5"> 
+        <button class="border-r-2 border-grey pr-2" onclick="decreament()">
+            <i class="fa-solid fa-minus"></i>
+        </button>
+        <div id="counter" class="font-bold">
+0
+        </div>
+        <button class="border-l-2 border-grey pl-2" onclick="increament()">
+            <i class="fa-solid fa-plus"></i>
+        </button>
+    </div>
+ </div> 
+ <script src="script.js"></script>
+</body>
+</html>
